@@ -1,0 +1,90 @@
+* {
+  background-color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  color: #41474e;
+  font-weight: 500;
+}
+h1 {
+  line-height: 23px;
+  letter-spacing: 0.5px;
+  color: #1f384c;
+  padding: 20px;
+}
+.Layout1 {
+  color: #1f384c;
+}
+.Polaris-LegacyCard,
+p,
+header,
+img {
+  background-color: #dde4f0;
+}
+.img {
+  width: 50px;
+  height: 50px;
+}
+.Polaris-LegacyCard,
+.Polaris-Layout__Section {
+  border-radius: 15px !important;
+  padding: 10px;
+}
+header {
+  display: flex;
+  align-items: center;
+  line-height: 15px;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.card_div {
+  display: flex;
+  gap: 10px;
+  background-color: #dde4f0;
+  border: 0.03px solid #dde4f0;
+}
+.card_child {
+  flex: 1;
+  background-color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 10px;
+  box-shadow: 0px 2.5px 2.5px 0px rgba(112, 127, 221, 0.15);
+  border-radius: 15px;
+  p {
+    color: #41474e;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    background-color: #fff;
+  }
+  label {
+    font-size: 13.5px;
+    text-transform: capitalize;
+  }
+}
+.Card_img {
+  padding: 20px 10px 0px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  color: #2d3748;
+  font-size: 20px;
+  line-height: 28px;
+  img {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+  }
+}
+.sec_card_div {
+  display: flex;
+  background-color: #dde4f0;
+  border: 0.03px solid #dde4f0;
+  gap: 20px;
+}
+.sec_card_child {
+  flex: 1;
+  padding: 10px;
+  box-shadow: 0px 2.5px 2.5px 0px rgba(112, 127, 221, 0.15);
+  border-radius: 15px;
+}
